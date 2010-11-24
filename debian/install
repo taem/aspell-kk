@@ -1,0 +1,6 @@
+*.multi		usr/lib/aspell
+*.dat		usr/lib/aspell
+pt154.*		usr/lib/aspell
+*.cwl.gz	usr/share/aspell
+*.compat	var/lib/aspell
+*.rws		var/lib/aspell

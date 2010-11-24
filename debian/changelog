@@ -1,0 +1,5 @@
+aspell-kk (0.2-1) unstable; urgency=low
+
+  * Initial release. Closes: #594040 (ITP).
+
+ -- Timur Birsh <taem@linukz.org>  Tue, 24 Aug 2010 21:35:04 +0600
