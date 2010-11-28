@@ -3,44 +3,20 @@
 
 DICT_LANG=kk
 
-build: build-stamp
+%:
+	dh $@
 
-build-stamp:
-	dh_testdir
+override_dh_auto_build:
 	cat words | prezip > $(DICT_LANG).cwl
 	gzip $(DICT_LANG).cwl
 	# remove upstream hashfile
 	[ ! -f $(DICT_LANG).rws ] || rm -f $(DICT_LANG).rws
 	touch $(DICT_LANG).rws
 	touch $(DICT_LANG).compat
-	touch build-stamp
 
-clean:
-	dh_testdir
-	dh_testroot
+override_dh_auto_clean:
 	rm -f $(DICT_LANG).cwl* $(DICT_LANG).rws $(DICT_LANG).compat
-	rm -f build-stamp
 	dh_clean
 
-binary-indep: build
-	dh_testdir
-	dh_testroot
-	dh_prep
+override_dh_auto_install:
 	installdeb-aspell
-	dh_installdirs
-	dh_install
-	dh_link
-	dh_installchangelogs 
-	dh_installdocs
-	dh_compress
-	dh_fixperms
-	dh_installdeb
-	dh_gencontrol
-	dh_md5sums
-	dh_builddeb
-
-binary-arch: build
-
-binary: binary-arch binary-indep
-
-.PHONY: build clean binary-arch binary-indep binary
