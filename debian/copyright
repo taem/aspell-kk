@@ -1,13 +1,13 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: Kazakh dictionary for GNU Aspell
-Maintainer: Alexey Lipchansky <could@gnu.kz>
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: Kazakh dictionary for GNU Aspell
+Upstream-Contact: Alexey Lipchansky <could@gnu.kz>
 Source: http://sourceforge.net/projects/kazlinux/
 
 Copyright: 2005, Alexey Lipchansky <could@gnu.kz>
 License: GPL-2
 
 Files: debian/*
-Copyright: 2010, Timur Birsh <taem@linukz.org>
+Copyright: 2011, Timur Birsh <taem@linukz.org>
 License: GPL-2+
 
 License: GPL-2
