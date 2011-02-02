@@ -19,4 +19,6 @@ override_dh_auto_clean:
 	dh_clean
 
 override_dh_auto_install:
+	# fix upstream files persmissions
+	chmod -x $(DICT_LANG).dat $(DICT_LANG).multi pt154.cset pt154.cmap
 	installdeb-aspell
