@@ -1,1 +1,8 @@
 *~
+debian/aspell-kk.debhelper.log
+debian/aspell-kk.*.debhelper
+debian/aspell-kk.substvars
+debian/aspell-kk/
+debian/files
+kk.compat
+kk.cwl.gz
