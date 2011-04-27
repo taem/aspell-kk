@@ -1,3 +1,9 @@
+aspell-kk (0.2-1~bpo60+1) squeeze-backports; urgency=low
+
+  * Backport to squeeze.
+
+ -- Timur Birsh <taem@linukz.org>  Wed, 27 Apr 2011 15:15:05 +0600
+
 aspell-kk (0.2-1) unstable; urgency=low
 
   * Initial release. Closes: #594040 (ITP).
