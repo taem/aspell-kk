@@ -2,7 +2,7 @@ Source: aspell-kk
 Section: text
 Priority: optional
 Maintainer: Timur Birsh <taem@linukz.org>
-Build-Depends: debhelper (>= 9), dictionaries-common-dev (>= 0.9.1), aspell (>= 0.60)
+Build-Depends: debhelper (>= 9), dictionaries-common-dev (>= 1.12.11), aspell (>= 0.60)
 Standards-Version: 3.9.1
 Homepage: http://sourceforge.net/projects/kazlinux/
 Vcs-Git: git://github.com/taem/aspell-kk.git
@@ -10,7 +10,7 @@ Vcs-Browser: http://github.com/taem/aspell-kk/tree/master
 
 Package: aspell-kk
 Architecture: all
-Depends: aspell (>= 0.60), dictionaries-common (>= 0.9.1), ${misc:Depends}
+Depends: aspell (>= 0.60), dictionaries-common (>= 1.12.11), ${misc:Depends}
 Provides: aspell-dictionary
 Description: Kazakh dictionary for GNU Aspell
  This package contains all the required files to add support
