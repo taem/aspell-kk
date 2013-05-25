@@ -1,14 +1,15 @@
-Format: http://dep.debian.net/deps/dep5/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Kazakh dictionary for GNU Aspell
 Upstream-Contact: Alexey Lipchansky <could@gnu.kz>
 Source: http://sourceforge.net/projects/kazlinux/
 
+Files: *
 Copyright: 2005, Alexey Lipchansky <could@gnu.kz>
 License: GPL-2
 
 Files: debian/*
-Copyright: 2011, Timur Birsh <taem@linukz.org>
-License: GPL-2+
+Copyright: 2011-2013, Timur Birsh <taem@linukz.org>
+License: GPL-2
 
 License: GPL-2
     This program is free software; you can redistribute it and/or modify
