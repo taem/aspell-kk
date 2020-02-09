@@ -2,7 +2,7 @@ Source: aspell-kk
 Section: text
 Priority: optional
 Maintainer: Timur Birsh <taem@linukz.org>
-Build-Depends: debhelper (>= 12~), dictionaries-common-dev (>= 1.12.11), aspell (>= 0.60)
+Build-Depends: debhelper-compat (= 12), dictionaries-common-dev (>= 1.12.11), aspell (>= 0.60)
 Standards-Version: 3.9.4
 Homepage: http://sourceforge.net/projects/kazlinux/
 Vcs-Git: git://github.com/taem/aspell-kk.git
